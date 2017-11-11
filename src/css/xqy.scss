@@ -1,0 +1,356 @@
+nav{
+	height: 72px;
+	width: 100%;
+	.container{
+		a{
+			display: inline-block;
+			width: 95px;
+		    height: 32px;
+		    margin-top: 21px;
+		    img{
+		    	height: 100%;
+		    	width: 100%;
+		    }
+		}
+		.city{
+			margin-left: 20px;
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 28px;
+			span{
+				display: block;
+				color: #212121;
+				text-align: center;
+				cursor: pointer;
+				font-size: 16px;
+				font-weight: 400;
+				i{
+					font-size: 16px;
+					margin-right: 16px;
+				}
+			}
+		}
+		ul{
+			float: right;
+			line-height: 72px;
+			li{
+				float: left;
+				text-align: center;
+				font-size: 16px;
+				margin-right: 48px;
+				a{
+					display: inline;
+				}
+			}
+			li:hover a{
+				color: #f36;
+			}
+		}
+	}
+}
+main{
+	.house-info{
+	    height: 533px;
+	    margin: 0 auto;
+	    padding: 0 20px;
+	    background: #fff;
+	    position: relative;
+	    .house-img-c{
+	    	float: left;
+		    width: 640px;
+		    margin-right: 40px;
+		    .house-info-name{
+		    	height: 73px;
+			    line-height: 73px;
+			    color: #000;
+			    h1{
+					display: inline-block;
+				    font-size: 24px;
+				    font-weight: 600;
+			    }
+			    h3{
+					display: inline-block;
+				    font-size: 14px;
+				    color: #8a8a8a;
+				    margin-left: 16px;
+				    font-weight: 400;
+			    }
+		    }
+		    .house-img{
+		    	width: 640px;
+			    height: 336px;
+			    position: relative;
+			    img{
+			    	width: 100%;
+			    	height: 100%;
+			    }
+			    .house-img-number{
+			    	position: absolute;
+				    right: 12px;
+				    bottom: 12px;
+				    height: 20px;
+				    width: 45px;
+				    background: rgba(33,33,33,.2);
+				    line-height: 20px;
+				    border-radius: 20px;
+				    text-align: center;
+				    color: #fff;
+			    }
+		    }
+			.house-img-nav{
+				height: 84px;
+			    margin-top: 20px;
+			    position: relative;
+			}
+	    }
+	    .house-info-c{
+	    	float: right;
+		    width: 440px;
+		    margin-top: 54px;
+		    .house-info-wrap{
+		    	padding: 23px 0 12px;
+		    	position: relative;
+		        border-bottom: 1px dotted #e6e6e6;
+		        p{
+		        	font-size: 38px;
+				    line-height: 28px;
+				    font-weight: 600;
+				    height: 28px;
+				    color: #ff305a;
+				    position: relative;
+		        }
+		        .house-tag-lists{
+		        	margin: 25px 0 5px;
+		        	span{
+		        		display: inline-block;
+					    font-size: 12px;
+					    line-height: 12px;
+					    color: #8a8a8a;
+					    padding: 3px 6px;
+					    margin-right: 3px;
+					    border: 1px solid #e6e6e6;
+					    margin-bottom: 7px;
+		        	}
+		        }
+		    }
+		    .border-info-top{
+		    	padding-top: 34px;
+    			padding-bottom: 25px;
+        		padding: 23px 0 12px;
+			    position: relative;
+			    border-bottom: 1px dotted #e6e6e6;
+			    .house-attr{
+			    	margin-bottom: 32px;
+    				position: relative;
+    				.house-attr-c{
+    					float: left;
+    					text-align: center;
+    					p{
+						    font-size: 20px;
+						    line-height: 20px;
+						    color: #000;
+						    margin-bottom: 14px;
+						    font-weight: 600;
+    					}
+    					span{
+    						font-size: 14px;
+						    color: #666;
+						    text-align: center;
+    					}
+    				}
+    				.attr-center{
+    					float: none;
+    					position: absolute;
+					    margin: 0 20%;
+					    width: 33%;
+					    top: 0;
+					    left: 50%;
+					    margin-left: -16%;
+    				}
+			    }
+			    .row{
+    				margin-bottom: 21px;
+				    line-height: 14px;
+				    background: #fff;
+				    label{
+				    	color: #8a8a8a;
+    					margin-right: 10px;
+				    }
+			    }
+		    }
+		    .house-info-b{
+		    	padding: 23px 0 12px;
+    			position: relative;
+    			img{
+    				width: 76px;
+				    height: 76px;
+				    border-radius: 50%;
+				    float: left;
+				    margin-right: 20px;
+    			}
+    			.person-info{
+    				float: left;
+				    width: 305px;
+				    padding-top: 20px;
+				    .person-name{
+				    	font-size: 18px;
+					    line-height: 18px;
+					    color: #000;
+					    margin-bottom: 14px;
+					    span{
+					    	margin-left: 16px;
+						    font-size: 14px;
+						    color: #8a8a8a;
+						    font-weight: 100;
+					    }
+				    }
+				    .person-intro{
+				    	font-size: 23px;
+					    line-height: 14px;
+					    margin-bottom: 14px;
+					    color: #f36;
+						font-weight: 100;
+						span{
+							margin-right: 4px;
+						}
+				    }
+    			}
+		    }
+	    }
+	}
+}
+footer{
+	background-color: #212121;
+	.fTop{
+	    padding: 32px 0 24px;
+	    border-bottom: 1px dashed #666;
+		a{
+			line-height: 14px;
+			font-weight: 500;
+			color: #999;
+			margin-right: 28px;
+		}
+		a:hover{
+			color: #f36;
+		}
+	}
+	.fCenter{
+		padding-top: 32px;
+		ul{
+			overflow: hidden;
+			li{
+				float: left;
+				width: 184px;
+			    height: 180px;
+			    line-height: 22px;
+				dt,h4{
+					font-size: 20px;
+				    color: #999;
+				    font-weight: 600;
+				    margin-bottom: 24px;
+				}
+				dd{
+					font-size: 14px;
+				    color: #ccc;
+				    margin-top: 12px;
+				    position: relative;
+				    padding-left: 10px;
+				    a{
+				    	color: #ccc;
+				    }
+				    a:hover{
+				    	color: #f36;
+				    }
+				}
+				p{
+					margin-top: 35px;
+				    color: #ff2b56;
+				    font-size: 20px;
+				    font-weight: 700;
+				    line-height: 32px;
+				}
+				span{
+					color: #ccc;
+				}
+			}
+			.app{
+				float: right;
+				text-align: center;
+				height: 180px;
+				img{
+					width: 120px;
+					height: 120px;
+				}
+				p{
+					color: #ccc;
+					margin-top: 22px;
+				}
+			}
+		}
+	}
+	.fBottom{
+		height: 50px;
+		padding-bottom: 30px;
+		p{
+			text-align: center;
+		    font-size: 12px;
+		    padding: 24px 0 48px;
+		    color: #666;
+		    margin: 0 auto;
+		    width: 1180px;
+		    border-top: 1px solid #555;
+		}
+	}
+}
+.right-sidebar{
+	width: 36px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: hsla(0,0%,100%,.1);
+    right: 0;
+    z-index: 99999;
+    box-shadow: -5px 0 20px 0 rgba(0,0,0,.06);
+    a{
+    	cursor: pointer;
+    	display: block;
+	    width: 36px;
+	    height: 36px;
+	    position: fixed;
+	    z-index: 999;
+	    right: 0;
+	    text-align: center;
+    }
+    .a1{
+		display: block;
+	    width: 36px;
+	    height: 114px;
+	    position: fixed;
+	    padding-top: 6px;
+	    z-index: 999;
+	    top: 50%;
+	    margin-top: -100px;
+	    right: 0;
+	    text-align: center;
+	    color: #fff;
+	    background: #f36;
+	    border-radius: 4px 0 0 4px;
+	    i{
+	    	display: block;
+	    	font-size: 16px;
+	    	font-weight: 100;
+	    }
+	}
+	.a2{
+	    bottom: 134px;
+	    line-height: 36px;
+	}
+	.a3{
+	    bottom: 74px;
+	    line-height: 36px;
+	}
+	.a4{
+	    bottom: 24px;
+	    line-height: 36px;
+	}
+}

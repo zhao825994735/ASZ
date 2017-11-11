@@ -1,0 +1,43 @@
+	html,body,ul,dl,dt,dd,ol,li,input,button,select,p,h1,h2,h3,h4,h5,h6{
+		margin:0px;
+		padding:0px;
+	}
+	html{
+		font:14px "Microsoft Yahei";
+		color:#555;
+	}
+	img{
+		display:block;
+	}
+	ul,ol{
+		list-style-type:none;
+	}
+	b,i{
+		font-style:normal;
+		font-weight:normal;
+	}
+	a:link,a:visited,a:active{
+		text-decoration:none;
+		color:#666;
+	}
+	a:hover{
+		/*text-decoration:underline;*/
+	}
+	.l{
+		float:left;
+	}
+	.r{
+		float:right;
+	}
+	.container{
+		margin:0px auto;
+		width: 1200px;
+	}
+	.hidden{
+		overflow: hidden;
+	}
+	.clearFix::after{
+		content: '';
+		display: block;
+		clear: both;
+	}
